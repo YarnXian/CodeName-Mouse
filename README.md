@@ -8,7 +8,7 @@
 `srand((unsigned)time(NULL));//随机数种子`  
 `mouse_event(MOUSEEVENTF_MOVE,rand()%1920,rand()%1080,0,0);//移动鼠标`  
 两个rand分别对应着屏幕的X和Y坐标，但具体的数值要根据你的屏幕大小确定，我这里是1920*1080的屏幕  
-*该项目它包括了三个参数:  
+* 该项目它包括了三个参数:  
 **count**:鼠标失灵总次数。这里的失灵指鼠标指针在屏幕上随机移动，其代码为  
 `int count = 10;`   
 `for(int i = 0;i<count;i++){`  
