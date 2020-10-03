@@ -4,5 +4,5 @@
 ## Main.h
 它包括了三个参数:  
 **count**:鼠标失灵总次数。这里的失灵指鼠标指针在屏幕上随机移动，其代码为  
-`#include <windows.h>`  
-`srand((unsigned)time(NULL));`
+`#include <windows.h>    
+srand((unsigned)time(NULL));`
