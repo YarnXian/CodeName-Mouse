@@ -3,8 +3,8 @@
 该项目模拟了恶搞病毒经常使用的使鼠标失灵发作症状，并且你可以自定义各种参数。  
 ## 主要代码
 * 核心代码  
-`#include <windows.h>//头文件` 
-`#include <time.h>//头文件`       
+`#include <windows.h>//头文件`  
+`#include <time.h>//头文件`         
 `srand((unsigned)time(NULL));//随机数种子`  
 `mouse_event(MOUSEEVENTF_MOVE,rand()%1920,rand()%1080,0,0);//移动鼠标`  
 两个rand分别对应着屏幕的X和Y坐标，但具体的数值要根据你的屏幕大小确定，我这里是1920*1080的屏幕  
@@ -14,4 +14,5 @@
 `for(int i = 0;i<count;i++){`  
 `...`  
 `}`  
-**crazy**
+**crazy**  
+## 安装及使用
