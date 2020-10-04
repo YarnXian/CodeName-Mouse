@@ -19,4 +19,7 @@
 `mouse_event(MOUSEEVENTF_MOVE | MOUSEEVENTF_RIGHTDOWN | MOUSEEVENTF_UP,rand()%1920,rand()%1080,0,0);`  
 `}`  
 如果你想要按左键而不是右键，可以将上面的RIGHT换成LEFT  
+**time**:这个参数是每秒执行的间隔，其代码为  
+`Sleep(100);`  
+Sleep这个函数表示延时，但使用的是毫秒，1000毫秒=1秒  
 ## 安装及使用
