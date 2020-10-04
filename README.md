@@ -14,5 +14,9 @@
 `for(int i = 0;i<count;i++){`  
 `...`  
 `}`  
-**crazy**  
+**crazy**:当执行到多少次时鼠标进入疯狂状态，这里指不停地按键，其代码为:  
+`if(i==5){`  
+`mouse_event(MOUSEEVENTF_MOVE | MOUSEEVENTF_RIGHTDOWN | MOUSEEVENTF_UP,rand()%1920,rand()%1080,0,0);`  
+`}`  
+如果你想要按左键而不是右键，可以将上面的RIGHT换成LEFT  
 ## 安装及使用
