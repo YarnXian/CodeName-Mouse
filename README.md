@@ -23,7 +23,7 @@
 `Sleep(100);`  
 Sleep这个函数表示延时，但使用的是毫秒，1000毫秒=1秒  
 ## 安装及使用  
-* 安装程序
+* 安装程序  
 请使用手动安装的方式进行安装，前提是你的计算机上要安装Visual Studio，没有的可以去官网安装。  
 安装完开发工具后，请在github页面上选择Download ZIP进行下载，下载完成后解压，将CodeName-Mouse.sln拖入Visual Studio，然后在源文件中打开main.cpp，即可找到主函数入口。  
 * 使用程序  
